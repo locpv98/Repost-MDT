@@ -1,5 +1,5 @@
 # LEARN THE BASICS
-Most machine learning workflows invlve (lien quan den) working with data, creating models, optimizing model parameters, and saving the trained models.Thi tutorial introduces you to complete ML workflow implemented (thuc hien) in PyTorch, with links
+Most machine learning workflows involve (lien quan den) working with data, creating models, optimizing model parameters, and saving the trained models. This tutorial introduces you to complete ML workflow implemented (thuc hien) in PyTorch, with links
 to learn more about each of these concepts (khainiem).
 We''ll use the FashionMNIST dataset to train a neural network that predicts if an input image belongs to one of the following classes: T-shirt/top, Trouser, Pullover, Dress, Coat, Sandal, Shirt, Sneakerm Bag, or Ankle boot.
 
