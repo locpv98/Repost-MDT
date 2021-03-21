@@ -17,6 +17,6 @@ The tutorials are organized in sections, revoling (quay vong) about a common the
 * [Basic tutorial:]() Descibe general topics repuired to understand the rest of tutorial in GStreamer.
 * [Playback tutorial:]() Explain everything you need to know to produce a media playback application using GStreamer.
 * [Table of Concept](https://gstreamer.freedesktop.org/documentation/tutorials/table-of-concepts.html?gi-language=c)
-## Sample meida 
-The audio and video clips used throughout these tutorials are all publicly available and the copyright remains with their respective authors. In some cases they have been re-encoded for demonstration purposes (muc dich).
+## Sample media 
+The audio and video clips used throughout these tutorials are all publicly available and the copyright remains (còn lại) with their respective (tương ứng) authors. In some cases they have been re-encoded for demonstration purposes (muc dich).
 
