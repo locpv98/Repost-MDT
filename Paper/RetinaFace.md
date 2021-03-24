@@ -42,3 +42,16 @@ Tóm lại, những đóng góp chính của chúng tôi là:
 **Context Modelling:** Để nâng cao khả năng lập luận theo ngữ cảnh của mô hình để chụp những khuôn mặt nhỏ bé [23], SSH [36] và PyramidBox [49] đã áp dụng mô-đun ngữ cảnh trên các kim tự tháp đặc trưng để phóng to trường tiếp nhận từ lưới Euclid. Để nâng cao năng lực mô hình hóa phép biến đổi không cứng nhắc của CNN, mạng tích chập có thể biến dạng (DCN) [9, 74] đã sử dụng một lớp có thể biến dạng mới để mô hình hóa các phép biến đổi hình học. Giải pháp quán quân của WIDER Face Challenge 2018 [33] chỉ ra rằng mô hình bối cảnh cứng nhắc (mở rộng) và không cứng nhắc (biến dạng) bổ sung và trực giao để cải thiện hiệu suất nhận diện khuôn mặt.
 
 **Multi-task Learning:** Nhận diện và căn chỉnh khuôn mặt chung được sử dụng rộng rãi [6, 66, 5] vì các hình dạng khuôn mặt được căn chỉnh cung cấp các tính năng tốt hơn để phân loại khuôn mặt. Trong Mask R-CNN [20], hiệu suất phát hiện đã được cải thiện đáng kể bằng cách thêm một nhánh để dự đoán mặt nạ đối tượng song song với các nhánh hiện có. Densepose [1] đã sử dụng kiến ​​trúc của Mask-RCNN để có được các nhãn và tọa độ phần dày đặc trong mỗi vùng đã chọn. Tuy nhiên-ít hơn, nhánh hồi quy dày đặc trong [20, 1] được đào tạo bằng cách học có giám sát. Ngoài ra, nhánh dày đặc là một FCN nhỏ được áp dụng cho mỗi RoI để dự đoán ánh xạ dày đặc pixel-to-pixel.
+
+## 3. RetinaFace
+### 3.1.Multi-task Loss
+![image](https://user-images.githubusercontent.com/80739312/112251640-3ce7c900-8c8e-11eb-9051-0bfd20f0fe98.png)  
+### 3.2. Dense Regression Branch
+**Mesh Decoder** Chúng tôi trực tiếp sử dụng bộ giải mã lưới (tích chập lưới và lấy mẫu tăng lưới) từ [70, 40], là một phương pháp tích chập đồ thị dựa trên lọc phổ cục bộ nhanh [10].  Để đạt được gia tốc hơn nữa, chúng tôi cũng sử dụng một bộ giải mã kết cấu và hình dạng khớp tương tự như phương pháp trong [70], trái ngược với [40] chỉ giải mã hình dạng.
+
+
+
+
+
+
+
