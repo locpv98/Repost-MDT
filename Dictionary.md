@@ -47,3 +47,18 @@
 **massive**: to lon  
 **gains** loi nhuan  
 ## RetinaFace: Single-stage Dense Face Localisation in the Wild
+**wild**: tự nhiên  
+**tremendous**: to lon  
+**prerequisite**: dk tien quyet  
+**minimise**: giam thieu   
+**coordinates**: toa do  
+**decoder**: bo giai ma  
+**briefly**: tom tat  
+**outline**: phac hoa  
+**receptive**: de tiep nhan  
+**gird**: bao vây, quấn  
+**edges**: các cạnh  
+**vertices**: đỉnh  
+**coloured**: có màu  
+**texture**: kết cấu
+****
