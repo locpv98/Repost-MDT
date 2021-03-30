@@ -13,11 +13,11 @@ FPN composes (sáng tác) of **a bottom-up** and **a top-down** pathway. The bot
 
 ![Figure 3.](https://miro.medium.com/max/470/1*_kxgFskpRJ6bsxEjh9CH6g.jpeg)  
 
-SSD makes detection from multiple feature maps. However, the bottom layers are not selected for object detection. They are in high resolution but the semantic value is not high enough (đủ) to (để) justify (biện minh) its use as the speed slow-down (chậm lại) is significant (có ý nghĩa). So SSD only uses upper (trên) layers for detection and therefore performs much (nhiều) worse (kém/tệ hơn) for small objects. 
+SSD makes detection from multiple feature maps. However, the bottom layers are not selected for object detection. They are in high resolution but the semantic value is not high enough (đủ) to (để) justify (biện minh) its use as the speed slow-down (chậm lại) is significant (đáng kể). So SSD only uses upper (trên) layers for detection and therefore performs much (nhiều) worse (kém/tệ hơn) for small objects. 
 
 ![image](https://user-images.githubusercontent.com/80739312/112411233-28b7d080-8d4f-11eb-848d-20c06dd746cb.png)  
 
-FPN provides a top-down pathway to construct higher resolution layers from a semantic (ngữ nghĩa0 rich (phong phú) layer.
+FPN provides a top-down pathway to construct higher resolution layers from a semantic (ngữ nghĩa) rich (phong phú) layer.
 
 ![Reconstruct spatial resolution in the top-down pathway](https://user-images.githubusercontent.com/80739312/112411416-76ccd400-8d4f-11eb-97a0-44ff8e7740ca.png) 
 
