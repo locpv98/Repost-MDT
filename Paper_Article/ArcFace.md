@@ -8,5 +8,5 @@ Suy hao biên góc phụ được đề xuất trong arcface để cải thiện
 
 ## Cách tiếp cận
 Tổn thất được sử dụng rộng rãi nhất để phân loại, tức là softmax như sau:  
-![](https://miro.medium.com/max/369/1*pIwx2O5H_tgWfCj7CYy1UA.png)  
+<p align="center"><img src=https://miro.medium.com/max/369/1*pIwx2O5H_tgWfCj7CYy1UA.png></p>  
 Trong đó x biểu thị vectơ đặc trưng của mẫu thứ i, W và b lần lượt là weight và bias. Softmax loss không tối ưu hóa rõ ràng tính năng nhúng để thực thi độ tương đồng cao hơn cho các mẫu nội lớp và tính đa dạng cho các mẫu giữa các lớp, điều này dẫn đến chênh lệch hiệu suất để nhận dạng khuôn mặt sâu dưới các biến thể ngoại hình lớn trong nội bộ lớp (ví dụ: thay đổi tư thế, chênh lệch tuổi tác  Vân vân).
