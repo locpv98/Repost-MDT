@@ -19,7 +19,8 @@ Một hình phạt biên góc cộng thêm m được thêm vào giữa trọng 
 <p align="center"><img src=https://miro.medium.com/max/539/1*c1UeN8NADBMqazZ_C8d0qA.png></p>
 
 ## Kiến trúc
-![image](https://user-images.githubusercontent.com/80739312/114338671-bd0e9980-9b7d-11eb-89f0-c62ee31a1138.png)
+![image](https://user-images.githubusercontent.com/80739312/114338671-bd0e9980-9b7d-11eb-89f0-c62ee31a1138.png)  
+
 Quy trình đào tạo :
 1. Sau khi chuẩn hóa tính năng x i và trọng số W, ta nhận được cos θ j (logit) cho mỗi lớp là (W j) ' x i .
 2. Chúng tôi tính arccosθ yi và nhận được góc giữa đối tượng địa lý x i và trọng lượng chân lý mặt đất W yi.
