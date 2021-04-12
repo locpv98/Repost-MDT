@@ -30,7 +30,7 @@ Quy trình đào tạo :
 
 ## Sự khác biệt hình học B / W SphereFace, CosFace & ArcFace
 Lề góc phụ gia có thuộc tính hình học tốt hơn vì lề góc có sự tương ứng chính xác với khoảng cách trắc địa.
-![image](https://user-images.githubusercontent.com/80739312/114338730-e62f2a00-9b7d-11eb-9442-d1d4fa683656.png)
+![image](https://user-images.githubusercontent.com/80739312/114338730-e62f2a00-9b7d-11eb-9442-d1d4fa683656.png)  
 So sánh ranh giới phân loại trong trường hợp phân loại nhị phân. ArcFace có biên độ góc tuyến tính không đổi trong toàn bộ khoảng thời gian. Ngược lại, SphereFace và CosFace chỉ có một lề góc phi tuyến.
 
 ## Phần kết luận
