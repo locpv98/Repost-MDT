@@ -1,4 +1,4 @@
-## Lưu giữ về tài liệu học tập trong thời gian thực tập tại công ty MediTech.
+## :file_folder: Lưu giữ về tài liệu học tập trong thời gian thực tập tại công ty MediTech.
 # Setup env note
 
 > Ghi chú lại các cài đặt setup môi trường.
